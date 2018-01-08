@@ -1,4 +1,4 @@
-file {'/etc/puppetlabs/puppet/test.txt'
+file {'/etc/puppetlabs/puppet/test.txt':
 	ensure => file,
 	content => 'Some test',
 }
